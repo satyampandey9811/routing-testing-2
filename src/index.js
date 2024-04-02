@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { HashRouter as Router } from 'react-router-dom';
 
 ReactDOM.render(
-  <Router>
+  <Router basename='https://satyampandey9811.github.io/routing-testing-2/'>
     <App />
   </Router>,
   document.getElementById('root')
